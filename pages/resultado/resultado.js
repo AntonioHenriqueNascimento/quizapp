@@ -24,6 +24,22 @@ function alterarAssunto() {
     assuntoTitulo.innerText = assunto
 }
 
+alterarAssunto()
+
+function inserirResultado() {
+    const sectionPontuacao = document.querySelector(".pontuacao")
+    const divAssunto = document.querySelector(".assunto")
+    const pontos = localStorage.getItem("pontos")
+
+    sectionPontuacao.innerHTML = `
+        ${divAssunto.outerHTML}
+
+        <strong>${pontos}</strong>
+
+        <p>de 10</p>
+    `
+}
+
 function jogarNovamente() {
     localStorage.removeItem("pontos")
     localStorage.removeItem("assunto")

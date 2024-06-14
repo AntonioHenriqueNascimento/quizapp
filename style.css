@@ -95,17 +95,6 @@ main {
     font-weight: 500;
 }
 
-main h1 {
-    font-size: 40px;
-    font-weight: 300;
-    color: var(--primary-text-color);
-    margin-bottom: 16px;
-}
-
-.boas_vindas h1 strong {
-    font-weight: 500;
-}
-
 .boas_vindas p {
     color: var(--secondary-text-color);
     font-size: 14px;
