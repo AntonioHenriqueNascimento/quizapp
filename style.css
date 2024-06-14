@@ -131,6 +131,7 @@ main h1 {
     font-size: 18px;
     font-weight: 500;
     color: var(--primary-text-color);
+    cursor: pointer;
 }
 
 .assuntos button div {
